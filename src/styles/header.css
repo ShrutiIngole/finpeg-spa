@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7vh;
+    background-color: white;
+    box-shadow: 2px 2px #bbbbbb;
+    display: flex;
+}
+
+i {
+    width: 5vw;
+    margin: 2vh 4vw;
+}
+
+.title {
+    width: 70vw;
+    margin: 2vh 2vw;
+    text-align: center;
+    font-size: large;
+}

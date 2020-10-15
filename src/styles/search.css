@@ -1,0 +1,30 @@
+.search {
+    position: fixed;
+    top: 8vh;
+    width: 92vw;
+    height: 7vh;
+    background-color: white;
+    box-shadow: 2px 2px #bbbbbb;
+    cursor: pointer;
+    display: flex;
+    margin: 2vh 4vw;
+}
+
+input {
+    padding: 2vh 2vw 2vh 4vw;
+    border: none;
+    width: 95%;
+    min-width: 70px;
+}
+
+.align {
+    margin-right: 0%;
+    width: 5%;
+    min-width: 30px;
+    padding: 2vh 2.5vw;
+    text-align: center;
+}
+
+.search-button {
+    margin: 0%;
+}

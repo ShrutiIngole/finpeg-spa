@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:active {
+  color: skyblue;
+}
+
+i:active {
+  color: #3870c9;
+}
+.blue {
+  background-color: #3870c9;
+}

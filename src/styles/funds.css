@@ -1,0 +1,142 @@
+.content {
+    position: fixed;
+    top: 15vh;
+    width: 92vw;
+    height: 80vh;
+    margin: 2vh 4vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+.fund-card {
+    background-color: white;
+    box-shadow: 2px 2px #bbbbbb;
+    border-radius: 1px;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.fund-img {
+    display: inline-block;
+    width: 15%;
+    padding: 2%;
+}
+
+.fund-title {
+    display: inline-block;
+    text-align: left;
+    margin: 1%;
+    width: 65%;
+    vertical-align: top;
+    padding: 2%;
+}
+
+.fund-name {
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fund-desc {
+    display: inline-block;
+    font-size: x-small;
+    color: #777777;
+    vertical-align: bottom;
+    text-transform: capitalize;
+}
+
+.arrow {
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+img { 
+    width: 12% 
+}
+
+#grey {
+    color: grey;
+}
+
+#white {
+    color: white;
+}
+
+#chalk {
+    background-color: #eeeeee;
+}
+
+.fund-logo {
+    width: 80%;
+}
+
+.button {
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    font-size: xx-small;
+}
+
+.returns {
+    padding-left: 2vw;
+    border-top: 1px #eeeeee solid;
+}
+
+.return-block {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 1vh 2.5vw;
+    margin-left: 2vw;
+}
+
+.type {
+    font-size: x-small;
+    text-align: center;
+}
+
+.value {
+    font-size: medium;
+}
+
+.button-icon {
+    display: inline-block;
+    width: 10%;
+}
+
+.button-text {
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+}
+
+#collapsed {
+    display: none;
+}
+
+#expanded {
+    display: block;
+}
+
+
+.load-next {
+    width: 100%;
+    text-align: center;
+    margin: 4vh 0vw;
+    font-size: small;
+    background-color: white;
+    border-radius: 2px;
+    padding: 5% 0%;
+    cursor: pointer;
+}
